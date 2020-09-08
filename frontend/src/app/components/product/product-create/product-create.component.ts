@@ -15,7 +15,7 @@ export class ProductCreateComponent implements OnInit {
   ngOnInit(): void {}
 
   createProduct():void{
-    this.productService.showMessage('Produto Cadastrado com Sucesso!')
+    this.productService.showMessage('Cadastro realizado')
   }
 
   cancel():void{
